@@ -3,10 +3,8 @@ import './Header.css';
 
 const HeaderTitle = props => {
   return (
-    <div>
-      <h3 className="title">Lambda School</h3>
-      <p className="handle">@LambdaSchool</p>
-      <p className="date"> 3rd June</p> 
+    <div className="headerTitle">
+      <p className="lambda"><strong>Lambda School</strong></p><p>@LambdaSchool 3rd June</p> 
     </div>
   );
 };

@@ -1,1 +1,42 @@
 /* All styles for your header Components live here */
+
+.headerImage {
+ 
+}
+
+.headerTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 10px;
+}
+.headerTitle .lambda {
+  color: black;
+}
+.headerTitle p {
+  color: grey;
+  padding: 5px;
+}
+
+
+
+.headerImage img {
+  width: 40px;
+  padding: 5px;
+}
+
+.headerContainer {
+  /* width: 550px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.headerContent {
+  /* width: 550px; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+

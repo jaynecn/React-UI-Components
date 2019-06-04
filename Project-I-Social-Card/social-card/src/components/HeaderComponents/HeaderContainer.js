@@ -6,9 +6,8 @@ import HeaderContent from './HeaderContent';
 
 function HeaderContainer() {
   return (
-    <div className="HeaderContainer">
-      <ImageThumbnail/>
-      <HeaderTitle/>
+    <div className="headerContainer">
+      <ImageThumbnail/><HeaderTitle/>
       <HeaderContent/>
     </div>
   );
