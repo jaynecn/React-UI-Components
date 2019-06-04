@@ -1,1 +1,21 @@
 /* All styles for your Card Components live here */
+
+.cardBanner {
+  width: 150px;
+
+}
+.cardBanner img {
+  width: 600px;
+}
+
+.card-content {
+  width: 600px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.CardContainer {
+  width: 600px;
+  text-decoration: none;
+  border: 1px solid blue;
+}
