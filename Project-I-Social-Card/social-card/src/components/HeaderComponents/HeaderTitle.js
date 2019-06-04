@@ -1,15 +1,19 @@
 import React from 'react';
 import './Header.css';
 
-function HeaderTitle () {
+const HeaderTitle = props => {
   return (
     <div>
-      <h1>Lambda School</h1>
-      <h2>@LambdaSchool</h2>
-      <p>3rd June</p>
+      <h3 className="title">Lambda School</h3>
+      <p className="handle">@LambdaSchool</p>
+      <p className="date"> 3rd June</p> 
     </div>
   );
 };
+
+// const MyButton = props => {
+//   return <button className="my-fancy-button">Click this Button</button>;
+// };
 
 export default HeaderTitle;
 
