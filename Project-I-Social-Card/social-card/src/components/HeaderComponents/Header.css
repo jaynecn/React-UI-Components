@@ -1,1 +1,42 @@
 /* All styles for your header Components live here */
+
+
+.headerTitle {
+  width: 550px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 50px;
+  line-height: 0px;
+}
+.headerTitle .lambda {
+  color: black;
+}
+.headerTitle p {
+  color: grey;
+  padding: 5px;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerContainer .nav img {
+  width: 40px;
+  padding: 5px;
+  position: absolute;
+
+}
+
+.headerContent {
+  width: 550px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 50px;
+  padding-right: 5px;
+  
+}
+
